@@ -1,0 +1,66 @@
+body{
+    background-color: #f3f1ff;
+    margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  background-color: white;
+}
+header{
+  margin-bottom: 40px;
+}
+.navbar img{
+    width: 51px;
+    height: 51px;
+}
+.navbar-nav .nav-item:hover .nav-link{
+  color: red!important;
+}
+.navbar-nav .nav-item .nav-link.active{
+  color: black!important;
+}
+/* .home{
+  margin-top: 13px;
+} */
+.home a{
+  color: white;
+}
+/* main{
+  max-width: 870px;
+} */
+.border_bottom {
+  border-bottom: 2px solid rgb(163, 158, 158);
+  margin: 0px 20px;
+}
+.player img{
+  width: 56px;
+}
+.Blog img{
+  width: 177px;
+  height: 117px;
+}
+.border{
+  border: none;
+}
+.lates p{
+  color: #FB7053;
+}
+.rating_star .active{
+  color: #FF9529;
+}
+.rating_star .unactive{
+  color: #84848a;
+}
+.time_count{
+  max-width: 104px;
+  background-color: #FFE4E8;
+}
+.time_count i{
+  color: #FF4A60;
+}
+.time_num span{
+  color: #FF4A60;
+}
+
