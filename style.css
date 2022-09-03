@@ -2,8 +2,13 @@ body{
     background-color: #f3f1ff;
     margin: 0;
 }
+/* reusable components */
 a{
   text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
 }
 .container{
   background-color: white;
@@ -27,9 +32,17 @@ header{
 .home a{
   color: white;
 }
-/* main{
-  max-width: 870px;
-} */
+.blog_thumb{
+  width: 160px;
+  height: 115px;
+  overflow: hidden;
+}
+.blog_content{
+  margin-bottom: 23px;
+}
+.blog_content h5{
+  margin-bottom: 0px!important;
+}
 .border_bottom {
   border-bottom: 2px solid rgb(163, 158, 158);
   margin: 0px 20px;
@@ -37,10 +50,10 @@ header{
 .player img{
   width: 56px;
 }
-.Blog img{
+/* .Blog img{
   width: 177px;
   height: 117px;
-}
+} */
 .border{
   border: none;
 }
